@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2D Breakout Game - JavScript</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Germania+One">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+</head>
+<body>
+    <audio id="start2" src="sounds/start2.webm" muted></audio>
+   <img src="img/pause.png"  id="pause">
+
+   <div class="flex-container">
+    <div class="flex-items">
+        <h1 id="tit" style="color: white;">!! BRICK BREAKER GAME !!</h1>
+       
+        <h1 id="title"></h1>
+    </div>
+    <div class="flex-items">
+        <div class="main">
+            <div class="sound">
+                <img src="img/sounddOn.png" alt="" id="sound">
+            </div>
+            <div id="gameover">
+                <img src="img/olafWon.png" alt="" id="youwon">
+                <img src="img/go1.png" alt="" id="youlose">
+                <div id="restart"><span id="hov">Play Again!</span> <br> Score: <span id="score"></span></div>
+            </div>
+            <canvas id="breakout" width="520" height="720"></canvas>
+        
+           </div>
+    </div>
+ </div>
+  
+  
+  
+
+
+
+   
+   
+    <div class="snowflakes" aria-hidden="true">
+        
+        <div class="snowflake">
+        ❅
+        </div>    
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+      </div>
+        
+  
+    <!-- <script src="components.js"></script> -->
+    <script src="game.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
